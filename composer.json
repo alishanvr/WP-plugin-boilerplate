@@ -1,0 +1,34 @@
+{
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Author Name",
+      "email": "author@example.com",
+      "homepage": "http://www.example.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "package-name": "version",
+    "php" : ">=5.6",
+    "ext-mbstring": "*"
+  },
+  "support": {
+    "email": "support@example.org",
+    "irc": "irc://irc.freenode.org/composer"
+  },
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+
+    },
+    "files": ["app/common/functions.php"]
+  },
+  "require-dev": {
+    "package-name": "version",
+  }
+}
